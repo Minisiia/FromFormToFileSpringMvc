@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Success</title>
+</head>
+<body>
+<h1>Success</h1>
+<p>Your data.txt has been submitted successfully.</p>
+<p>Total number of records: <span th:text="${count}"></span></p>
+<br>
+<a href="/people">People</a><br>
+<a href="/people/new">Add person</a><br>
+<br>
+<p>All information from data.txt </p>
+<a href="/people/data">
+<button>
+    Show
+</button>
+</a>
+<br>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Data</title>
+</head>
+<body>
+<h1>Information from data.txt</h1>
+<ul>
+    <li style="list-style-type: none" th:each="item:${data}" th:text="${item}"></li>
+</ul>
+
+</body>
+</html>
